@@ -25,5 +25,6 @@ public class BubbleActivity extends AppCompatActivity {
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         myWebView.loadUrl("https://keep.google.com/");
+        myWebView.scrollTo(150, 0);   // TODO: calculate the delta to move by
     }
 }
